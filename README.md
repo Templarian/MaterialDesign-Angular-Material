@@ -1,6 +1,6 @@
 # MaterialDesign-Angular-Material
 
-Dist repo for Angular Material.
+Dist repo for Angular Material MDI.
 
 ## Build
 
