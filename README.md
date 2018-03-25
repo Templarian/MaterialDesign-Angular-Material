@@ -1,2 +1,8 @@
 # MaterialDesign-Angular-Material
-Dist Repo for Angular Material
+
+Dist repo for Angular Material.
+
+## Build
+
+- `npm install`
+- `npm run build`

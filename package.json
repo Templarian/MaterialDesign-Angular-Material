@@ -1,0 +1,28 @@
+{
+  "name": "@mdi/angular-material",
+  "version": "2.2.43",
+  "description": "Distribution and Build for Angular Material MDI",
+  "scripts": {
+    "build": "node build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Templarian/MaterialDesign-Angular-Material.git"
+  },
+  "keywords": [
+    "material",
+    "design",
+    "icons",
+    "angular"
+  ],
+  "author": "Austin Andrews",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Templarian/MaterialDesign-Angular-Material/issues"
+  },
+  "homepage": "https://github.com/Templarian/MaterialDesign-Angular-Material#readme",
+  "devDependencies": {
+    "@mdi/svg": "^2.2.43"
+  }
+}
