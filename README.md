@@ -8,7 +8,7 @@ Webfont distribution for the [Material Design Icons](https://materialdesignicons
 npm install @mdi/angular-material
 ```
 
-# Related Packages
+## Related Packages
 
 [NPM @MDI Organization](https://npmjs.com/org/mdi)
 
