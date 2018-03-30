@@ -1,8 +1,20 @@
-# MaterialDesign-Angular-Material
+> *Note:* Please use the main [MaterialDesign](https://github.com/Templarian/MaterialDesign/issues) repo to report issues. This repo is for distribution of the Angular-Material files only.
 
-Dist repo for Angular Material MDI.
+# Angular-Material - Material Design Icons
 
-## Build
+Webfont distribution for the [Material Design Icons](https://materialdesignicons.com).
 
-- `npm install`
-- `npm run build`
+```
+npm install @mdi/angular-material
+```
+
+# Related Packages
+
+[NPM @MDI Organization](https://npmjs.com/org/mdi)
+
+> SVG: [MaterialDesign-SVG](https://github.com/Templarian/MaterialDesign-SVG)
+> Webfont: [MaterialDesign-Webfont](https://github.com/Templarian/MaterialDesign-Webfont)
+
+## Learn More
+
+https://github.com/Templarian/MaterialDesign
