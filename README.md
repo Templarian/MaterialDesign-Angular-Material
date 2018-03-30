@@ -17,4 +17,5 @@ npm install @mdi/angular-material
 
 ## Learn More
 
-https://github.com/Templarian/MaterialDesign
+- [MaterialDesignIcons.com](https://materialdesignicons.com)
+- https://github.com/Templarian/MaterialDesign
