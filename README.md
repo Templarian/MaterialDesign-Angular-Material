@@ -12,9 +12,8 @@ npm install @mdi/angular-material
 
 [NPM @MDI Organization](https://npmjs.com/org/mdi)
 
-> SVG: [MaterialDesign-SVG](https://github.com/Templarian/MaterialDesign-SVG)
->
-> Webfont: [MaterialDesign-Webfont](https://github.com/Templarian/MaterialDesign-Webfont)
+- SVG: [MaterialDesign-SVG](https://github.com/Templarian/MaterialDesign-SVG)
+- Webfont: [MaterialDesign-Webfont](https://github.com/Templarian/MaterialDesign-Webfont)
 
 ## Learn More
 
