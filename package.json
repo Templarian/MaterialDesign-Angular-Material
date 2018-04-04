@@ -19,9 +19,9 @@
   "author": "Austin Andrews",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Templarian/MaterialDesign-Angular-Material/issues"
+    "url": "https://github.com/Templarian/MaterialDesign/issues"
   },
-  "homepage": "https://github.com/Templarian/MaterialDesign-Angular-Material#readme",
+  "homepage": "https://materialdesignicons.com",
   "devDependencies": {
     "@mdi/svg": "^2.2.43"
   }
