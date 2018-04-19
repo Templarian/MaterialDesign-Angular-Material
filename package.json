@@ -1,6 +1,6 @@
 {
   "name": "@mdi/angular-material",
-  "version": "2.3.50",
+  "version": "2.3.54",
   "description": "Distribution and Build for Angular Material MDI",
   "scripts": {
     "build": "node build.js",
@@ -23,6 +23,6 @@
   },
   "homepage": "https://materialdesignicons.com",
   "devDependencies": {
-    "@mdi/svg": "^2.3.50"
+    "@mdi/svg": "^2.3.54"
   }
 }
