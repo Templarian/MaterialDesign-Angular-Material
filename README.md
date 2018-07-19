@@ -106,10 +106,10 @@ Usage:
 ```html Example Usage
 
 <!-- Icon by itself -->
-<mat-icon svgIcon="android'" aria-label="Android icon"></mat-icon>
+<mat-icon svgIcon="android" aria-label="Android icon"></mat-icon>
 <!-- Icon button -->
 <a mat-icon-button href="https://android.com" matTooltip="Go to Android.com" aria-label="Go to Android.com">
-  <mat-icon svgIcon="android'" aria-label="Android icon"></mat-icon>
+  <mat-icon svgIcon="android" aria-label="Android icon"></mat-icon>
 </button>
 <!-- You can also combine an icon and text together -->
 <button mat-button>
@@ -118,6 +118,25 @@ Usage:
 </button>
 
 ```
+
+Please also add the following class to your styles (`styles.css`) to solve the problem where an icon isn't aligned properly when used in a menu item:
+ 	 
+```css styles.css
+
+button.mat-menu-item {
+  line-height: 24px !important;
+}
+a.mat-menu-item > mat-icon {
+  margin-bottom: 14px;
+}
+.mat-icon svg {
+  height: 24px;
+  width: 24px;
+}
+
+```
+
+Note that you do not have to add this CSS and that it may appeared to .
 
 [Demo](https://stackblitz.com/edit/mdi-material-example)
 
