@@ -8,7 +8,7 @@ Webfont distribution for the [Material Design Icons](https://materialdesignicons
 
 Install `@mdi/angular-material` from npm:
 
-```
+```bash
 npm install @mdi/angular-material
 ```
 
@@ -25,12 +25,12 @@ new CopyWebpackPlugin([
     to: 'assets/mdi.svg'
   }
 ]);
-``` 
+```
 
 Or if you're using Angular CLI:
 
 * For Angular CLI version 1.x, make sure to include `mdi.svg` in your `assets` folder under `.angular-cli.json` in the `assets` array:
-   
+
    ```json Angular CLI file
    {
       "apps": [
@@ -46,7 +46,7 @@ Or if you're using Angular CLI:
    ```
 
 * For Angular CLI version 6.x, make sure to include `mdi.svg` in your `assets` folder under `angular.json` in the `assets` array, located in the build configuration for your project:
- 
+
     ```json Angular CLI file
     {
        // ...
@@ -89,6 +89,7 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    // Required by the Angular Material icon module
     HttpClientModule,
     // ...
     MatIconModule
@@ -120,7 +121,7 @@ Usage:
 ```
 
 Please also add the following class to your styles (`styles.css`) to solve the problem where an icon isn't aligned properly when used in a menu item:
- 	 
+
 ```css styles.css
 
 button.mat-menu-item {
@@ -136,9 +137,7 @@ a.mat-menu-item > mat-icon {
 
 ```
 
-Note that you do not have to add this CSS and that it may appeared to .
-
-[Demo](https://stackblitz.com/edit/mdi-material-example)
+[Stackblitz](https://stackblitz.com/edit/mdi-material-example)
 
 For more information on icons, refer to the [icon docs](https://material.angular.io/components/icon/overview).
 
@@ -156,7 +155,7 @@ app.config(function($mdIconProvider) {
 
 ```
 
-### Usage
+#### Usage
 
 ```html Example Usage
 
