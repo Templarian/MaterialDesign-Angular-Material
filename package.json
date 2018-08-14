@@ -23,6 +23,6 @@
   },
   "homepage": "https://materialdesignicons.com",
   "devDependencies": {
-    "@mdi/svg": "^2.5.94"
+    "@mdi/svg": "^2.6.95"
   }
 }
