@@ -1,6 +1,6 @@
 {
   "name": "@mdi/angular-material",
-  "version": "2.5.94",
+  "version": "2.6.95",
   "description": "Distribution and Build for Angular Material MDI",
   "scripts": {
     "build": "node build.js",
