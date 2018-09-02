@@ -1,9 +1,9 @@
 // Build mdi.svg
 // <svg>
 //   <defs>
-//     <g id="name">
+//     <svg id="name">
 //       <path d="..."/>
-//     </g>
+//     </svg>
 //     ...
 //   </defs>
 // </svg>
@@ -41,7 +41,7 @@ function build() {
   const files = getSvgFiles();
   const icons = getNameWithPaths(files);
   const items = icons.map(({name, path}) => {
-    return `<g id="${name}"><path d="${path}"/></g>`
+    return `<svg id="${name}"><path d="${path}"/></svg>`
   });
   const template = `<svg><defs>${items.join('')}</defs></svg>`;
   writeFile(outputFile, template);
