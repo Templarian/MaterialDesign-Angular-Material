@@ -1,9 +1,9 @@
 {
   "name": "@mdi/angular-material",
-  "version": "3.3.92",
+  "version": "3.4.93",
   "description": "Distribution and Build for Angular Material MDI",
   "scripts": {
-    "build": "npm update && node build.js",
+    "build": "npm update && npm install && node build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +23,6 @@
   },
   "homepage": "https://materialdesignicons.com",
   "devDependencies": {
-    "@mdi/svg": "^3.3.92"
+    "@mdi/svg": "^3.4.93"
   }
 }
