@@ -7,6 +7,8 @@
 //     ...
 //   </defs>
 // </svg>
+
+// TODO: Rewrite with @mdi/util
 const fs = require('fs');
 const svgPackageFolder = "./node_modules/@mdi/svg";
 const encoding = "utf8";
@@ -27,7 +29,7 @@ function getNameWithPaths(files) {
   // { name: "icon-name", path: "M..." }
   return files.map(file => {
     const name = file.match(/([^\/]+)\.svg$/)[1];
-    const path = fs.readFileSync(file, { encoding }).match(/d="([^"]+)"/)[1];
+    const path = fs.readFileSync(file, { encoding }).match(/ d="([^"]+)"/)[1];
     return { name, path };
   })
 }
