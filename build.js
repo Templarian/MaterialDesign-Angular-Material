@@ -25,12 +25,14 @@ function getSvgFiles() {
   })
 }
 
-function getNameWithPaths(files) {
+function getIconData(files) {
   // { name: "icon-name", path: "M..." }
   return files.map(file => {
     const name = file.match(/([^\/]+)\.svg$/)[1];
-    const path = fs.readFileSync(file, { encoding }).match(/ d="([^"]+)"/)[1];
-    return { name, path };
+    const svgContent = fs.readFileSync(file, { encoding });
+    const viewBox = svgContent.match(/ viewBox="([^"]+)"/)[1];
+    const path = svgContent.match(/ d="([^"]+)"/)[1];
+    return { name, viewBox, path };
   })
 }
 
@@ -41,9 +43,9 @@ function writeFile(name, data) {
 function build() {
   const version = getVersion();
   const files = getSvgFiles();
-  const icons = getNameWithPaths(files);
-  const items = icons.map(({name, path}) => {
-    return `<svg id="${name}"><path d="${path}"/></svg>`
+  const icons = getIconData(files);
+  const items = icons.map(({name, viewBox, path}) => {
+    return `<svg id="${name}" viewBox="${viewBox}"><path d="${path}"/></svg>`
   });
   const template = `<svg><defs>${items.join('')}</defs></svg>`;
   writeFile(outputFile, template);
