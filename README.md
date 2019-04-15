@@ -2,7 +2,7 @@
 
 # Angular Material - Material Design Icons
 
-Webfont distribution for the [Material Design Icons](https://materialdesignicons.com).
+Angular Material distribution for the [Material Design Icons](https://materialdesignicons.com).
 
 ## Installation
 
