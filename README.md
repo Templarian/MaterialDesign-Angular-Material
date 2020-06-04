@@ -79,7 +79,7 @@ The `mdi.svg` contains all the icons provided on the site. Use inline with [MatI
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
-import { MatIconRegistry, MatIconModule } from '@angular/material';
+import { MatIconRegistry, MatIconModule } from '@angular/material/icon';
 import { DomSanitizer } from '@angular/platform-browser';
 
 import { HttpClientModule } from '@angular/common/http';
