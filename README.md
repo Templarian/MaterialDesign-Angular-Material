@@ -6,10 +6,10 @@ Angular Material distribution for the [Material Design Icons](https://materialde
 
 ## Installation
 
-Install `@mdi/angular-material` from npm:
+Install `@mdi/angular-material` and `@angular/cdk` from npm:
 
 ```bash
-npm install @mdi/angular-material
+npm install @mdi/angular-material @angular/cdk
 ```
 
 ## Usage
@@ -71,7 +71,7 @@ The `mdi.svg` contains all the icons provided on the site. It can be used inline
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
-import { MatIconRegistry, MatIconModule } from '@angular/material';
+import { MatIconRegistry, MatIconModule } from '@angular/material/icon';
 import { DomSanitizer } from '@angular/platform-browser';
 
 import { HttpClientModule } from '@angular/common/http';
